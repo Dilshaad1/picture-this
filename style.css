@@ -29,25 +29,15 @@ h4 {
   font-weight: 300;
 }
 
-@media (max-width: 960px) {
-  .imglandscape {
-    display: block;
-    width:500px;
-  }
-  .imgsquare {
-    display:none;
-  }
+img {
+  display: block;
 }
 
 @media (min-width: 960px) {
   .header {
     grid-template-columns: repeat(2, 1fr);
   }
-  .imgsquare {
-    display: block;
-    float: right;
-  }
-  .imglandscape{
-    display: none;
-  }
+}
+img {
+  width: 100%;
 }
